@@ -1,0 +1,5 @@
+apps:
+  - script   : streammachine-cmd
+    name     : StreamMachine
+    instances: 1
+    args     : --config ./config/standalone.json
